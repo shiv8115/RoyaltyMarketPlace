@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol";
 import "contracts/Interfaces/IRentableNFT.sol";
 import "contracts/MarketplaceDatatypes.sol";
 
-contract CalyptusNFTMarketplace is Ownable, MarketplaceDataTypes, ERC721Holder {
+contract NFTMarketplace is Ownable, MarketplaceDataTypes, ERC721Holder {
     uint256 private platformFee;
     address private feeRecipient;
 

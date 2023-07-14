@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Royalty.sol";
 
 /* AskGalore NFT-ERC721 */
-contract CalyptusNFT is
+contract NFT is
     ERC721URIStorage,
     ERC721Burnable,
     ERC721Royalty,
